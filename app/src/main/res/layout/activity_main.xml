@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Relative Layout was used in order for the button to successfully move to the screen bottom-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:background="@drawable/birthdayimage1">
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro"
+        android:layout_marginTop="0dp"
+        android:textAllCaps="true"
+        android:fontFamily="cursive"
+        android:textColor="#FFd700"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:background="#C0C0C0"
+        android:fontFamily="serif-monospace"
+        android:onClick="onClick"
+        android:text="@string/button_text"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"/>
+</RelativeLayout>
+<!--I believe the xml codes are self explanatory-->
+

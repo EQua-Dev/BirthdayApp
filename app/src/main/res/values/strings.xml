@@ -1,0 +1,11 @@
+<resources>
+    <!--All display texts are stored here-->
+    <string name="app_name">Birthday Alert!!</string>
+    <string name="birthday_message">Happy birthday to the prettiest girl on the block. May all your dreams come true, no matter how small or big they are.I wish you health, love, strength, and passion. You deserve the best.
+I wish you oceans of fun on this special day. The D-Day is finally here. Have loads of fun special girl.
+You always shine like the sun and illuminate the lives of those around you. I wish you a very happy birthday, shine on!!</string>
+    <string name="intro">happy birthday Jemima</string>
+    <string name="button_text">birthday message</string>
+    <string name="logo">eQuaStrike</string>
+    <string name="birthday_button">thank you!</string>
+</resources>
